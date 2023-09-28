@@ -1,10 +1,10 @@
 <!--Styles for my Resume-->
 
 
-/* Add Open Sans font to the head of your HTML file */
+/* Font */
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap" rel="stylesheet">
 
-/* Default styles for the body and elements */
+/* Body Style */
 body, h1, h2, h3, h4, h5, h6, p, ul, li {
     font-family: 'Open Sans', Arial, sans-serif;
     font-size: 1em;
@@ -12,7 +12,7 @@ body, h1, h2, h3, h4, h5, h6, p, ul, li {
     font-weight: 400;
 }
 
-/* Name */
+/* Banner Name at Top */
 h1 {
     font-size: 3.5em;
     color: #33485e;
@@ -25,5 +25,33 @@ strong {
     font-size: 2em;
     color: #33485e;
     text-transform: uppercase;
+}
+
+/* Sections */
+h2 {
+    font-size: 1.5em;
+    text-transform: uppercase;
+    background-color: #33485e;
+    color: white;
+    font-weight: 400;
+}
+
+/* Job Titles */
+h3 {
+    font-size: 2em;
+    font-weight: 600;
+}
+
+/* Job Organization */
+h4 {
+    font-size: 1.5em;
+    font-weight: 400;
+}
+
+/* Job Date */
+h5 {
+    font-size: 1em;
+    font-weight: 400;
+    font-style: italic;
 }
 
