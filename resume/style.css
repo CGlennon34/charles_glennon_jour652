@@ -1,4 +1,14 @@
-H1 {
-    font-size: 48px;
-    color: #bf0b0b;
+<!--Styles for my Resume-->
+
+
+/* Add Open Sans font to the head of your HTML file */
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap" rel="stylesheet">
+
+/* Default styles for the body and elements */
+body, h1, h2, h3, h4, h5, h6, p, ul, li {
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 1em;
+    color: #444;
+    font-weight: 400;
 }
+
