@@ -5,7 +5,7 @@
 {link :href"https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap" rel="stylesheet"}
 
 /* Body Style */
-body, h1, h2, h3, h4, h5, h6, p, ul, li 
+body
     {
     font-family:'Open Sans', Arial, sans-serif;
     font-size: 1em;
@@ -13,50 +13,97 @@ body, h1, h2, h3, h4, h5, h6, p, ul, li
     font-weight: 400;}
 
 /* Banner Name at Top */
-h1 
+#name
     {
     font-size: 3.5em;
     color: #33485e;
     text-transform: uppercase;
     text-align: center;
+   
+ 
+}
+/*Border below name*/
+.border-bottom {
+        width: 60%;
+        min-width: 300px;
+        border-bottom: 2px solid #33485e;
+        text-align: center;
+        margin: 0 auto;
+}
+ /*Center Contact Info*/ 
+.menu {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.menu li {
+    display: inline-block;
+    margin: 0 10px; /* Adjust as needed */
 }
 
 /* Title */
+#title {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
 strong
      {
     font-size: 2em;
     color: #33485e;
     text-transform: uppercase;
+    
 }
 
 /* Sections */
-h2 {
+.sectionheader {
     font-size: 1.5em;
     text-transform: uppercase;
     background-color: #33485e;
     color: white;
     font-weight: 400;
+    width: 70%;
+    min-width: 300px;
+    border-bottom: 2px solid #33485e;
+    margin: 20px 0 10px; 
+    margin-left: auto; 
+    margin-right: auto; 
 }
 
+
 /* Job Titles */
-h3 
+.jobtitile
     {
     font-size: 2em;
     font-weight: 600;
 }
 
 /* Job Organization */
-h4 
+.organization
     {
     font-size: 1.5em;
     font-weight: 400;
 }
 
 /* Job Date */
-h5 
+.date
     {
     font-size: 1em;
     font-weight: 400;
     font-style: italic;
+    margin: 3px 0 0;
+}
+/*Job Description*/
+.description
+    {
+        margin: 10px 0;
+        font-size: 1em;
+}
+/*List Item font size*/
+
+li 
+    {
+    font-size: 1em;
 }
 
