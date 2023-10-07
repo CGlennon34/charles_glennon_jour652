@@ -1,0 +1,148 @@
+/*Styles for my Resume*/
+
+
+/* Font */
+{link :href"https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap" rel="stylesheet"}
+
+/* Body Style */
+body
+    {
+    font-family:'Open Sans', Arial, sans-serif;
+    font-size: 1em;
+    color: black;
+    font-weight: 400;}
+
+/* Banner Name at Top */
+#name
+    {
+    font-size: 3.5em;
+    color: #33485e;
+    text-transform: uppercase;
+    text-align: center;
+   
+ 
+}
+/*Border below name*/
+.border-bottom {
+        width: 60%;
+        min-width: 300px;
+        border-bottom: 2px solid #33485e;
+        text-align: center;
+        margin: 0 auto;
+}
+ /*Center Contact Info*/ 
+.menu {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.menu li {
+    display: inline-block;
+    margin: 0 10px; /* Adjust as needed */
+}
+
+/*Introduction*/
+#introduction {
+    text-align: center;
+    margin: 0 auto;
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-top: 10px;
+
+}  
+
+
+/* Title */
+#title {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: 600;
+    margin-top: 20px;
+}
+strong
+     {
+    font-size: 2em;
+    color: #33485e;
+    text-transform: uppercase;
+    
+}
+
+/* Sections */
+.sectionheader {
+    font-size: 1.5em;
+    text-transform: uppercase;
+    background-color: #33485e;
+    color: white;
+    font-weight: 500;
+    width: 70%;
+    min-width: 300px;
+    border-bottom: 3px solid #33485e;
+    margin: 20px 0 10px; 
+    margin-left: 2px; 
+    margin-right: 100px; 
+    text-align:justify;
+}
+
+
+/* Job Titles */
+.jobtitle {
+    font-weight: bold;
+    font-size: 1.8em;
+    color: black
+}
+
+/* Job Organization */
+.organization
+    {
+    font-size: 1.3em;
+    font-weight: 400;
+}
+
+/* Job Date */
+.date
+    {
+    font-size: 1em;
+    font-weight: 400;
+    font-style: italic;
+    margin: 3px 0 0;
+}
+/*Job Description*/
+.description
+    {
+        margin: 10px 0;
+        font-size: 1em;
+        
+}
+/*List Item font size*/
+
+li 
+    {
+    font-size: 1em;
+}
+
+/*Bold Skills*/
+#do li {
+    font-weight: normal;
+    font-size: 10px;
+}
+#skills
+     {
+    color: black;
+    font-size: 16px;
+    
+}
+
+#do li #skills {
+    font: size 19px;
+    font-weight: bold;
+}
+
+/*Container*/
+#container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
