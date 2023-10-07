@@ -9,7 +9,7 @@ body
     {
     font-family:'Open Sans', Arial, sans-serif;
     font-size: 1em;
-    color: #444;
+    color: black;
     font-weight: 400;}
 
 /* Banner Name at Top */
@@ -86,7 +86,8 @@ strong
 /* Job Titles */
 .jobtitle {
     font-weight: bold;
-    font-size: 2em;
+    font-size: 1.8em;
+    color: black
 }
 
 /* Job Organization */
@@ -118,3 +119,19 @@ li
     font-size: 1em;
 }
 
+/*Bold Skills*/
+#do li {
+    font-weight: normal;
+    font-size: 10px;
+}
+#skills
+     {
+    color: black;
+    font-size: 16px;
+    
+}
+
+#do li #skills {
+    font: size 19px;
+    font-weight: bold;
+}
