@@ -42,6 +42,13 @@ body
     margin: 0 10px; /* Adjust as needed */
 }
 
+/*Introduction*/
+#introduction {
+    text-align: center;
+    margin: 0 auto;
+}  
+
+
 /* Title */
 #title {
     display: block;
@@ -63,26 +70,26 @@ strong
     background-color: #33485e;
     color: white;
     font-weight: 400;
-    width: 70%;
+    width: 100%;
     min-width: 300px;
     border-bottom: 2px solid #33485e;
     margin: 20px 0 10px; 
     margin-left: auto; 
     margin-right: auto; 
+    text-align: left;
 }
 
 
 /* Job Titles */
-.jobtitile
-    {
+.jobtitle {
+    font-weight: bold;
     font-size: 2em;
-    font-weight: 600;
 }
 
 /* Job Organization */
 .organization
     {
-    font-size: 1.5em;
+    font-size: 1.3em;
     font-weight: 400;
 }
 
@@ -99,6 +106,7 @@ strong
     {
         margin: 10px 0;
         font-size: 1em;
+        
 }
 /*List Item font size*/
 
