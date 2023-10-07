@@ -48,6 +48,7 @@ body
     margin: 0 auto;
     margin-left: 350px;
     margin-right: 350px;
+    margin-top: 10px;
 
 }  
 
@@ -57,6 +58,8 @@ body
     display: block;
     margin: 0 auto;
     text-align: center;
+    font-weight: 600;
+    margin-top: 20px;
 }
 strong
      {
@@ -134,4 +137,12 @@ li
 #do li #skills {
     font: size 19px;
     font-weight: bold;
+}
+
+/*Container*/
+#container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 50px;
 }
