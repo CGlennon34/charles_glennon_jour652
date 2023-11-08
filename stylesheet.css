@@ -1,0 +1,122 @@
+.header{
+   text-align: center;
+   width: 100%;
+   margin-top: 0%;
+}
+
+body {
+   background-color: #fffbe8;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#work{
+   text-align: center;
+}
+
+.heading{
+   text-align: center;
+   margin-bottom: 1%;
+   margin-top: 1%;
+}
+
+.navbar{
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.info{
+   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-size: medium;
+   margin-top: 3%;
+   margin-left: 2%;
+   margin-right: 2%;
+}
+
+.img-fluid{
+   margin: 5%;
+   float: inline-end;
+}
+
+.contact-button {
+   margin-left: 30%;
+   display: inline-block;
+   background-color: #1f1f1f;
+   color: #fff;
+   padding: 10px 20px;
+   text-decoration: none;
+   border: none;
+   border-radius: 5px;
+   font-weight: bold;
+   font-size: 16px;
+   cursor: pointer;
+   transition: background-color 0.3s;
+}
+
+.contact-button:hover {
+   background-color: rgb(78, 78, 78);
+}
+
+.sectionheader{
+   font-size: 2em;
+   text-transform: uppercase;
+   background-color: #272726;
+   color: white;
+   font-weight: 500;
+   width: 100%;
+   min-width: 300px;
+   border-bottom: 3px solid #33485e;
+   margin: 20px 0 10px; 
+   margin-left: 1%; 
+   margin-right: 100px; 
+   text-align:left;
+}
+
+.subheading{
+   text-align: center;
+   font-size: 1.3em;
+   font-weight: 100;
+}
+
+.jobtitle{
+   font-size: 1.5em;
+   font-weight:bold;
+   text-align: left;
+   font-style: bold;
+   margin-left: 1%;
+}
+
+.organization{
+   font-size: 1.3em;
+   font-weight: 300;
+   text-align: left;
+   margin-left: 1%;
+}
+
+.date{
+   font-size: 1em;
+   font-weight: 200;
+   text-align: left;
+   margin-left: 1%;
+}
+
+.description{
+   font-size: 1em;
+   font-weight: 150;
+   text-align: left;
+   margin-left: 1%;
+   margin-right: 30%;
+}
+
+#thumbnail{
+   max-width: 200;
+   max-height: 200;
+}
+
+.rounded{
+   width: 400px; 
+   height: 400px; 
+   overflow:hidden;
+   margin-right: 2%;
+   margin-left: 2%;
+   margin-top: 2%;
+   margin-bottom: 2%;
+}
