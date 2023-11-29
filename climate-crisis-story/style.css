@@ -1,0 +1,118 @@
+body {
+    background-color: #f9f9f9;
+    color: #404040;
+    font-family: 'Montserrat', sans-serif;
+
+    
+}
+
+a {
+    color: #2ecc71;
+}
+
+a:hover {
+    color: #27ae60; /* Darker shade for hover effect */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #404040;
+}
+
+
+.logo{
+    max-height: 40px;
+}
+
+
+/* Footer */
+.footer {
+    background-color: #404040;
+    color: #ffffff;
+    padding: 20px 0;
+}
+
+/* header */
+.bg-image{
+    width: 100%;
+    height: 100%;
+    background-image: url(images/SoniaHug_StreetView.jpg);
+    background-size: cover; /* Cover the entire container */
+    background-position: center; /* Center the background image */
+    position: absolute;
+}
+.head-container{
+    width:auto; /* Set the width of your container */
+    height: 300px; /* Set the height of your container */
+    overflow: hidden; /* Crop the content outside the container */
+    position: relative;
+}
+
+
+/*Read More*/
+.read-more-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+}
+
+.read-more-checkbox {
+    display: none;
+}
+
+.read-more-checkbox:checked + .read-more-label + .read-more-content {
+    max-height: fit-content;
+}
+
+.read-more-label {
+    cursor: pointer;
+    color: #3498db;
+    display: block;
+    margin-top: 10px;
+}
+
+/*Text Styles*/
+.head{
+   text-align: center;
+    font-size: 4em;
+    font-weight: bold;
+    color: #ffffff;
+    margin-top: 5%;
+}
+
+.red{
+    color: red;
+}
+
+.subhead{
+    text-align: center;
+    font-size: 1.5em;
+    font-style: italic;
+    color: rgb(255, 255, 255);
+    margin-bottom: 5%;
+
+}
+
+.chapter{
+    font-size: 2em;
+    font-weight: 300;
+    padding-bottom: 2%;
+    padding-top: 3%;
+
+}
+
+.byline{
+    font-weight: 70;
+    padding-bottom: 2%;
+}
+
+.date{
+    font-weight: 70;
+    padding-bottom: 5%;
+}
+
+.body{
+    line-height: 2;
+}
+
+
+
