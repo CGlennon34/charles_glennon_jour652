@@ -1,0 +1,60 @@
+
+
+body {
+    background-image: url(Elements/images/grunge-old-vintage-retro-paper-texture-background_47840-948.avif);
+    background-repeat: repeat; /* or repeat-x, repeat-y, no-repeat */
+    background-attachment: fixed; /* optional - keeps the background fixed while scrolling */
+}
+
+.logo{
+    max-height: 30px;
+}
+
+.landing {
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #000000; /* Text color on the landing page */
+}
+
+.landing-content {
+    text-align: center;
+    font-family: 'Teko', sans-serif;
+}
+
+h1 {
+    font-size: 5em;
+    margin-bottom: 0.5em;
+}
+
+.subhead{
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 2%;
+    font-size: 1.3em;
+    font-weight: bold;
+    margin-right: 3%;
+    margin-left: 3%;
+}
+
+.byline {
+    font-size: 0.8em;
+    font-weight: 200;
+    text-align: right;
+}
+
+.scroll-down {
+    color: #000000;
+    font-family: 'Teko', sans-serif;
+    text-decoration: ;
+    font-size: 1.5em;
+    padding-top: 10%;
+}
+
+.article {
+    padding: 2em;
+    color: #333; /* Text color in the article */
+}
