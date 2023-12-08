@@ -58,3 +58,72 @@ h1 {
     padding: 2em;
     color: #333; /* Text color in the article */
 }
+
+.mt-2{
+    font-weight: 200;
+    font-size: 0.8em;
+}
+
+.opener{
+    font-weight: 400;
+    font-size: 1.5em;
+}
+/*IMAGES*/
+
+.head-img{
+    width: 80%;
+
+}
+
+.img-container{
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+
+/*TEXT BOX*/
+.text-box{
+    background-color: #000000;
+    width: 90%;
+    margin: 0 auto;
+    border: solid #ffffff 1px;
+    padding-top: 3%;
+    margin-top: 5%;
+    margin-bottom: 3%;
+  }
+.text-box-title{
+    font-family: 'Montserrat', sans-serif;
+    font-style: bold;
+    font-size: 1.25em;
+    text-align: center;
+    color:	rgb(255, 255, 255);
+    background: #970000;;
+  }
+.text-box-text{
+    padding-left: 3em;
+    padding-right: 3em;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.85em;
+    font-style: italic;
+    text-align: left;
+    color:#ffffff;
+  }
+.text-box-intro-text{
+    padding-left: 1em;
+    padding-right: 1em;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    text-align: left;
+    color: #ffffff;
+  }
+.text-box-source-text{
+    padding-left: 1em;
+    padding-right: 1em;
+    font-family: 'Montserrat', sans-serif;
+    font-size: .8em;
+    text-align: left;
+    color:#ffffff;
+  }
+.text-box-text li{
+    line-height: 2;
+  }
