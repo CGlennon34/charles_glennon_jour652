@@ -8,11 +8,13 @@ body {
 
 p{
     line-height: 1.5em;
+    font-size: 1.2em;
     color: #ffffff;
 }
 
-.col-md-8{
+.col-md-10{
     background-color: rgba(0, 0, 0, 0.6);
+    padding-top: 2%;
 }
 .logo{
     max-height: 30px;
@@ -64,7 +66,8 @@ h1 {
 .byline {
     font-size: 0.8em;
     font-weight: 200;
-    text-align: right;
+    text-align: center;
+    color: #000000;
 }
 
 .scroll-down {
@@ -90,6 +93,9 @@ h1 {
     font-size: 1.5em;
     color: #ffffff;
 }
+
+
+
 /*IMAGES*/
 
 .head-img{
@@ -106,6 +112,7 @@ h1 {
     text-align: center;
     margin-bottom: 0.5%;
     margin-top: 2%;
+    width: 90%;
 }
 
 .map{
@@ -117,6 +124,18 @@ h1 {
     margin-top: 3%;
     margin-bottom: 3%;
 }
+
+.dohyo{
+    max-width: 60%;
+    margin-top: 2%;
+}
+
+.gif{
+    width: 80%;
+}
+
+
+
 /*TEXT BOX*/
 .text-box{
     background-color: #000000;
@@ -125,7 +144,7 @@ h1 {
     border: solid #ffffff 1px;
     padding-top: 3%;
     margin-top: 5%;
-    margin-bottom: 3%;
+    margin-bottom: 5%;
   }
 .text-box-title{
     font-family: 'Montserrat', sans-serif;
@@ -167,4 +186,29 @@ h1 {
 .source{
     font-size: 0.8em;
     font-weight: 300;
+}
+
+
+/*Pull Quote Style*/
+
+.pull-quote{
+    position: relative;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.6); 
+    text-align: center;
+}
+
+.quote{
+    font-size: 2em;
+    color:beige ;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 5px;
+}
+
+.author{
+    margin-left: 80%;
+    font-size: 1.3em;
+    font-weight: 200;
 }
