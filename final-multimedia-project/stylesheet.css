@@ -23,7 +23,9 @@ p{
 .landing {
     height: 100vh;
     background-image: url(Elements/images/Sumo\ squat\ -\ imigix.jpeg);
+    margin: 0 auto;
     background-size: cover;
+    background-position: center center;
     display: flex;
     flex-direction: column;
     justify-content: center;
